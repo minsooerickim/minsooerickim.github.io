@@ -73,7 +73,20 @@ nav{
     }
     .burger{
         display: block;
+        margin-left: 50%;
     }
+    nav{
+        position: fixed;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        top:0;
+        width: 100%;
+    }
+    .container {
+        margin-top: 10%;
+    }
+    
 
 }
 .nav-active{
