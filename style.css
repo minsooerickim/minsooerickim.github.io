@@ -86,7 +86,9 @@ nav{
     .container {
         margin-top: 10%;
     }
-    
+    .section{
+        width:100%;
+    }
 
 }
 .nav-active{
