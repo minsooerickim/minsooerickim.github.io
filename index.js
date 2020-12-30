@@ -24,3 +24,22 @@ const navSlide = () => {
 }
 
 navSlide();
+
+//scrolling upon nav clicks
+$("#projects").click(function() {
+    $('html, body').animate({
+        scrollTop: $('.container').offset().top
+    }, 2000);
+});
+
+
+//fixing nav bar when scrolling down
+var num = 200; //number of pixels before modifying styles
+
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > num) {
+        $('nav').addClass('fixed');
+    } else {
+        $('nav').removeClass('fixed');
+    }
+});

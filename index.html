@@ -10,22 +10,24 @@
     <script src="https://kit.fontawesome.com/30f3d4670e.js" crossorigin="anonymous"></script>
 </head>
     <body>
-        <nav>
+        <nav id="navbar">
             <div class="logo">
-                <h4>The Nav</h4>
+                <h4>Minsoo.K</h4>
             </div>
             <ul class="nav-links">
                 <li>
-                    <a href="#">Home</a>
+                    <a id="home" href="#" style = "color: #8D8273">Home</a>
+                </li>
+                <!--
+                <li>
+                    <a href="#" style = "color: #8D8273">About</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#" style = "color: #8D8273"">Work</a>
                 </li>
+                -->
                 <li>
-                    <a href="#">Work</a>
-                </li>
-                <li>
-                    <a href="#">Projects</a>
+                    <a id="projects" href="#" style = "color: #8D8273">Projects</a>
                 </li>
             </ul>
             <div class="burger">
@@ -34,28 +36,39 @@
                 <div class="line3"></div>
             </div>
         </nav>
-        <div class="tabs">
-            <h3><a href="index.html">Home</a></h3>
-            <h3><a href="projects.html">Projects</a></h3>
-            <h3><a href="#">About</a></h3>
-            
         </div>
-        <div class="box">
-            <img class="box-img" src="pictures/profilefinal.jpg" alt="my face :(">
-            <h1>Minsoo Kim</h1>
-            <h5>
-                Web Developer
-                <br>Game Developer
-            </h5>
-            <h6>Hi, I'm Minsoo Kim. I'm currently studying Computer Science at University of California, Riverside. I am a part of ACM, Cyber@UCR. I love making games and designing websites, one of which you are viewing currently! Check out some of my projects <span><a href="projects.html" style="color:lightblue">here!</a></span></h6>
-            <!--icons-->
-            <ul> 
-                <li><a href="https://www.facebook.com/profile.php?id=100007816549380" target="_blank"><i class="fab fa-facebook-f" style="color:#D3D3D3";></i></a></li>
-                <li><a href="https://www.instagram.com/minsookime/" target="_blank"><i class="fab fa-instagram" style="color:#D3D3D3"></i></a></li>
-                <li><a href="https://twitter.com/Eric070502" target="_blank"><i class="fab fa-twitter" style="color:#D3D3D3"></i></a></li>
-                <li><a href="mailto:minsooerickim@gmail.com"><i class="far fa-envelope" style="color:#D3D3D3"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/minsoo-kim-bb036a1b5/" target="_blank"><i class="fab fa-linkedin-in" style="color:#D3D3D3"></i></a></li>
-            </ul>
+        <div class="container">
+            <div class="box">
+                <img class="box-img" src="pictures/profilefinal.jpg" alt="my face :(">
+                <h1>Minsoo Kim</h1>
+                <h5>
+                    Web Developer
+                    <br>Game Developer
+                </h5>
+                <h6>Hi, I'm Minsoo Kim. I'm currently studying Computer Science at University of California, Riverside. I am a part of ACM, Cyber@UCR. I love making games and designing websites, one of which you are viewing currently! Check out some of my projects <span><a href="projects.html" style="color:lightblue">here!</a></span></h6>
+                <!--social media icons-->
+                <ul> 
+                    <li><a href="https://www.facebook.com/profile.php?id=100007816549380" target="_blank"><i class="fab fa-facebook-f" style="color:#D3D3D3";></i></a></li>
+                    <li><a href="https://www.instagram.com/minsookime/" target="_blank"><i class="fab fa-instagram" style="color:#D3D3D3"></i></a></li>
+                    <li><a href="https://twitter.com/Eric070502" target="_blank"><i class="fab fa-twitter" style="color:#D3D3D3"></i></a></li>
+                    <li><a href="mailto:minsooerickim@gmail.com"><i class="far fa-envelope" style="color:#D3D3D3"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/minsoo-kim-bb036a1b5/" target="_blank"><i class="fab fa-linkedin-in" style="color:#D3D3D3"></i></a></li>
+                </ul>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="projects-content">
+                            <h1>Projects</h1>
+                            <ul class="project-list">
+                                <li><a href="https://github.com/minsooerickim/R-auncher" target = _blank><font size="5.5">R-auncher</font><br><font size="2">chrome extension made for UCR students to easily access many different websites used by the institution</font><a><li></li>
+                                <li><a href="https://github.com/minsooerickim/Discount-Selector" target = _blank><font size="5.5">Discount-Selector</font><br><font size="2">chrome extension that brings all the items with a discount up to the top and gets rid of duplicate listings (usually ads)</font><a><li></li>    
+                                <li><a href="https://github.com/minsooerickim/UCR-Professor-Ratings" target = _blank><font size="5.5">UCR Professor Ratings</font><br><font size="2">quick and easy access to professor ratings when registering for classes!</font><a><li></li>
+                                <li><a href="https://github.com/minsooerickim/snake-game" target = _blank><font size="5.5">Snake Game</font><br><font size="2">snake game but with unordinary rules!</font><a><li>
+                                <li><a href="https://github.com/minsooerickim/tic-tac-toe" target = _blank><font size="5.5">Tic Tac Toe</font><br><font size="2">tic tac toe game made purely in c++!</font><a><li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
         </div>
         <script src="index.js"></script>
     </body>

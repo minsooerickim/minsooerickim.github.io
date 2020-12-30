@@ -1,19 +1,28 @@
+/*
+nav bar
+*/
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 nav{
+    z-index: 10;
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
     font-family: 'Century Gothic', sans-serif;
-    background-color: #5D4954;
+    background-color: #343233;
+    /*background: #282627;*/
     font-weight: 100;
 }
+.fixed{
+    position:fixed;
+    top:0;
+}
 .logo{
-    color: rgb(226, 226, 226);
+    color: #8D8273;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 22px;
@@ -24,7 +33,7 @@ nav{
     width: 40%;
 }
 .nav-links a{
-    color: rgb(226, 226, 226);
+    color: #8D8273;
     text-decoration: none;
     letter-spacing: 3px;
     font-size: 14px;
@@ -40,16 +49,17 @@ nav{
     margin: 5px;
     transition: transform 0.1s ease-in;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:580px){
     body{
         overflow-x: hidden;
     }
     .nav-links{
+        list-style: none;
         position: absolute;
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: #5D4954;
+        background-color: #343233;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -63,6 +73,7 @@ nav{
     .burger{
         display: block;
     }
+
 }
 .nav-active{
     transform:translateX(0%);
@@ -89,19 +100,65 @@ nav{
 }
 
 
+
+
+
+
 body {
+    font-family: Roboto;
+    margin: 0;
+    background: #343233;
+    /*
     background: url(pictures/background.jpg) no-repeat;
     background-size:cover;
+    */
 }
 .box{
     width: 450px;
-    background: rgba(0, 0, 0, 0.4);
+    background: #282627;
     padding: 40px;
     text-align: center;
     margin: auto;
     margin-top: 5%;
-    color: white;
     font-family: 'Century Gothic', sans-serif;
+}
+.section{
+    background: #282627;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    font-family: 'Century Gothic', sans-serif;
+    justify-content: center;
+}
+.section.container{
+    justify-content: center;
+    text-align: center;
+    margin: 6px;
+}
+.section h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    color: #8D8273;
+    ;
+}
+div.projects-content{
+    justify-content: center;
+    text-align: center;
+}
+ul.project-list{
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+.project-list li {
+    margin: 3% 0;
+}
+.project-list a{
+    text-decoration: none;
+    color: #8D8273;
 }
 .box-img{
     border-radius: 50%;
@@ -112,18 +169,21 @@ body {
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: 100;
+    color: #8D8273;
 }
 .box h5 {
     font-size: 13px;
     letter-spacing: 3px;
     font-weight: 100;
-    margin-top: -5%;
+    color: #8D8273;
 }
 .box h6{
     font-size: 15px;
     letter-spacing: 1px;
     font-weight: 500;
-    margin-bottom: -1%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #8D8273;
 }
 .box li {
     display: inline-block;
@@ -137,6 +197,7 @@ ul {
     margin-bottom: -5%;
 }
 */
+/*
 .tabs{
     width: 100%;
     text-align: center;
@@ -159,6 +220,7 @@ h3:hover, a:visited, a:link, a:active {
     text-decoration: none;
     color: white;
 }
+*/
 /* .tabs h3:nth-child(1):hover {
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px lightblue, 0 0 5px lightblue;
@@ -168,8 +230,7 @@ h3:hover, a:visited, a:link, a:active {
     text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
 } */
 /*glow*/
-     ul li {
-        position: relative;
+     .box-img ul li {
         display: block;
         color: #666;
         font-size: 15px;
@@ -182,7 +243,6 @@ h3:hover, a:visited, a:link, a:active {
         transition: .5s;
         justify-content: center;
         align-items: center;
-        position: relative;
     }
 /*ul li:before {
     position: absolute;
@@ -232,27 +292,27 @@ ul li:nth-child(4):hover:before {
 ul li:nth-child(5):hover:before {
     box-shadow: 0 0 15px #4682B4;
 }*/
-ul li:nth-child(1):hover {
+.box ul li:nth-child(1):hover {
     color: #456cba;
     box-shadow: 0 0 15px #4267B2;
     text-shadow: 0 0 15px #4267B2;
 }
-ul li:nth-child(2):hover {
+.box ul li:nth-child(2):hover {
     color: #26a4f2;
     box-shadow: 0 0 15px #C71585;
     text-shadow: 0 0 15px #C71585;
 }
-ul li:nth-child(3):hover {
+.box ul li:nth-child(3):hover {
     color: #e23670;
     box-shadow: 0 0 15px #87CEFA;
     text-shadow: 0 0 15px #87CEFA;
 }
-ul li:nth-child(4):hover {
+.box ul li:nth-child(4):hover {
     color: #2a6cbb;
     box-shadow: 0 0 15px #FFFFF0;
     text-shadow: 0 0 15px #FFFFF0;
 }
-ul li:nth-child(5):hover {
+.box ul li:nth-child(5):hover {
     color: #ff1a1a;
     box-shadow: 0 0 15px #4682B4;
     text-shadow: 0 0 15px #4682B4;
