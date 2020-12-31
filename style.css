@@ -94,21 +94,23 @@ nav{
         top:0;
         width: 100%;
     }
-    .container {
-        margin-top: 10%;
-        right: 0;
-        padding-right: 0;
-    }
+    /*
     .projects-content{
         margin-top: -10%;
     }
     .section {
         width:102%;
     }
-    ul .project-list{
-        margin-top: 100%;
+    */
+    .projects-content{
+        width: 450px;
+        background: #282627;
+        padding: 40px;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        font-family: 'Century Gothic', sans-serif;
     }
-
 }
 .nav-active{
     transform:translateX(0%);
