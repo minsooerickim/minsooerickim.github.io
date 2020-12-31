@@ -1,6 +1,8 @@
 # minsooerickim.github.io
 
 ![Project Image](/pictures/sc.PNG)
+![Project Image](/pictures/sc2.PNG)
+![Project Image](/pictures/sc3.PNG)
 
 ---
 
