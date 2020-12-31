@@ -64,21 +64,18 @@ nav{
     .nav-links{
         list-style: none;
         position: absolute;
-     
         right:0;
         height: 92vh;
         top: 8vh;
         background-color: #343233;
         display: flex;
         flex-direction: column;
-        align-items: center;
         width: 30%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-        text-align: center;
-    }
-    .nav-links li{
         
+   }
+    .nav-links li{
         opacity: 0;
     }
     .burger{
@@ -89,8 +86,6 @@ nav{
         margin-top: 0%;
         position: fixed;
         display:flex;
-        justify-content: center;
-        align-items: center;
         top:0;
         width: 100%;
     }
@@ -104,6 +99,10 @@ nav{
     */
     div.box {
         width: 100%;
+    }
+    .nav-links li {
+        width: 0%;
+        margin-left: 30%;
     }
 }
 .nav-active{
