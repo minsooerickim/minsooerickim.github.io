@@ -57,9 +57,7 @@ nav{
 }
 @media screen and (max-width:580px){
     body{
-        /*
         overflow-x: hidden;
-        */
     }
     .nav-links{
         list-style: none;
@@ -99,6 +97,7 @@ nav{
     */
     div.box {
         width: 100%;
+        margin-top: 10%;
     }
     .nav-links li {
         width: 0%;
