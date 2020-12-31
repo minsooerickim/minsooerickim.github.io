@@ -1,6 +1,6 @@
 # minsooerickim.github.io
 
-![Project Image](pictures/sc.png)
+![Project Image](/pictures/sc.png)
 
 ---
 
@@ -25,9 +25,6 @@ projects I have created!
 - css
 - javascript
 - jquery
-
-
-[Back To The Top](#minsooerickim.github.io)
 
 ---
 
@@ -62,8 +59,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Back To The Top](#minsooerickim.github.io)
-
 ---
 
 ## Author Info
@@ -71,4 +66,3 @@ SOFTWARE.
 - Linkedin - [@minsookime](https://www.linkedin.com/in/minsookime/)
 - Website - [Minsoo Kim](minsooerickim.github.io)
 
-[Back To The Top](#minsooerickim.github.io)
