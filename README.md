@@ -1,13 +1,10 @@
-# minsooerickim.github.io
+#minsooerickim.github.io
 
 ![Project Image](pictures/sc.png)
-
-> This is a ReadMe template to help save you time and effort.
 
 ---
 
 ### Table of Contents
-You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [How To Use](#how-to-use)
@@ -19,34 +16,25 @@ You're sections headers will be used to reference location of destination.
 
 ## Description
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
+Personal website, which includes a short biography and a section with notable 
+projects I have created!
 
 #### Technologies
 
-- Technology 1
-- Technology 2
+- html
+- css
+- javascript
+- jquery
 
-[Back To The Top](#read-me-template)
+
+[Back To The Top](#minsooerickim.github.io)
 
 ---
 
 ## How To Use
 
-#### Installation
-
-
-
-#### API Reference
-
-```html
-    <p>dummy code</p>
-```
-[Back To The Top](#read-me-template)
-
----
-
-## References
-[Back To The Top](#read-me-template)
+Simply paste this (minsooerickim.github.io) in your browser to check out the
+website!
 
 ---
 
@@ -74,13 +62,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#minsooerickim.github.io)
 
 ---
 
 ## Author Info
 
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
+- Linkedin - [@minsookime](https://www.linkedin.com/in/minsookime/)
+- Website - [Minsoo Kim](minsooerickim.github.io)
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#minsooerickim.github.io)
