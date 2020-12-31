@@ -29,7 +29,7 @@ navSlide();
 $(function(){
     $('.nav-links li a').on('click', function() {
         $('html, body').animate({
-            scrollTop: $($.attr(this, 'href')).offset().top
+            scrollTop: $($.attr(this, 'href')).offset().top - 90
         }, 500);
     });
 })
