@@ -1,6 +1,6 @@
 # minsooerickim.github.io
 
-![Project Image](/pictures/sc.png)
+![Project Image](/pictures/sc.PNG)
 
 ---
 
