@@ -1,4 +1,4 @@
-#minsooerickim.github.io
+# minsooerickim.github.io
 
 ![Project Image](pictures/sc.png)
 
