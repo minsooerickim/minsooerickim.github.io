@@ -65,7 +65,7 @@ nav{
         list-style: none;
         position: absolute;
      
-        right: 0px;
+        right:0;
         height: 92vh;
         top: 8vh;
         background-color: #343233;
@@ -78,7 +78,7 @@ nav{
         text-align: center;
     }
     .nav-links li{
-        margin-left: -120%;
+        
         opacity: 0;
     }
     .burger{
@@ -102,14 +102,8 @@ nav{
         width:102%;
     }
     */
-    .projects-content{
-        width: 450px;
-        background: #282627;
-        padding: 40px;
-        text-align: center;
-        margin: auto;
-        margin-top: 5%;
-        font-family: 'Century Gothic', sans-serif;
+    div.box {
+        width: 100%;
     }
 }
 .nav-active{
