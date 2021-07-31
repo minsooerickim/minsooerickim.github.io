@@ -1,36 +1,39 @@
 body {
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
     overflow-x: hidden;
-    background: black;
+    background: #282627;
     font-family: Roboto;
 }
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
+
 .navbar{
     /* position:fixed; */
-    padding-top: 15px;
-    width: 100%;
+    /* width: 100%; */
     /* margin-top: -5%; */
     z-index: 10;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
     /* min-height: 8vh; */
     font-family: 'Century Gothic', sans-serif;
     /* background-color: #343233; */
     /*background: #282627;*/
     font-weight: 100;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
 }
 .fixed{
     position:fixed;
     top:0;
 }
 .logo{
-    margin-right: 40%;
+    /* margin-right: 40%; */
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -39,15 +42,14 @@ body {
 .nav-links{
     list-style: none;
     display:flex;
-    justify-content: space-around;
-    width: 40%;
 }
 .nav-links a{
-    margin-left: 100%;
+    /* margin-left: 100%; */
     color: #ffffff;
     text-decoration: none;
     letter-spacing: 3px;
     font-size: 14px;
+    padding-left: 40px;
 }
 
 .nav-active{
@@ -82,22 +84,24 @@ body {
 
 
 .box{
-    width: 450px;
+    /* width: 450px; */
     /* background: #282627; */
-    padding: 40px;
+    /* padding: 40px; */
     text-align: center;
-    margin: auto;
+    /* margin: auto; */
     margin-top: 40px;
     padding-bottom: 80px;
     font-family: 'Century Gothic', sans-serif;
 }
+
 .section{
     background: #282627;
-    padding: 40px;
+    /* padding: 40px; */
     text-align: center;
-    margin: auto;
+    /* margin: auto; */
     font-family: 'Century Gothic', sans-serif;
     justify-content: center;
+    padding-top: 10px;
 }
 .section.container{
     justify-content: center;
@@ -213,4 +217,49 @@ h6{
 }
 .zoomIn a:hover {
     color: orange !important;
+}
+
+
+@media only screen and (max-width : 768px) {
+    .nav-links a {
+        font-size: x-small;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .box h1, #projects h1, #contact h1, #projects font{
+        font-size: medium;
+    }
+    .box font {
+        font-size: smaller;
+    }
+    .box h6, #projects font.description, #contact li{
+        font-size: x-small;
+    }
+    .project-list li, .box h6 {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .nav-links a{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .navbar{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+    .nav-links {
+        position: absolute;
+        padding-top: 40px;
+
+    }
+    .box {
+        padding-bottom: 0;
+    }
+    .social {
+        margin-bottom: 20px;
+    }
 }
