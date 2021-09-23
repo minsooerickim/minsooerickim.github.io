@@ -3,26 +3,18 @@ body {
     height: 100vh; */
     overflow-x: hidden;
     background: #282627;
-    font-family: Roboto;
+    /* font-family: Roboto; */
 }
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Century Gothic', sans-serif;
     /* box-sizing: border-box; */
 }
-
 .navbar{
-    /* position:fixed; */
-    /* width: 100%; */
-    /* margin-top: -5%; */
     z-index: 10;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
-    /* min-height: 8vh; */
-    font-family: 'Century Gothic', sans-serif;
-    /* background-color: #343233; */
-    /*background: #282627;*/
     font-weight: 100;
     padding-left: 100px;
     padding-right: 100px;
@@ -81,7 +73,12 @@ body {
 
 
 
-
+.row {
+    display: flex;
+}
+#projects {
+    flex: 50%;
+}
 
 .box{
     /* width: 450px; */
